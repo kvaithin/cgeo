@@ -361,7 +361,7 @@ dependencies {
 
     // Mapsforge VTM implementation
     def mapsforgeVTMSource = 'org.mapsforge';
-    def mapsforgeVTMVersion = '0.17.0';
+    def mapsforgeVTMVersion = '0.18.0';
 
     implementation "$mapsforgeVTMSource:vtm:$mapsforgeVTMVersion"
     implementation "$mapsforgeVTMSource:vtm-themes:$mapsforgeVTMVersion"
@@ -432,7 +432,7 @@ dependencies {
     implementation 'androidx.preference:preference:1.1.1'
 
     // Support Annotations. use same version for the main app and the test app
-    def annotationVersion = '1.3.0'
+    def annotationVersion = '1.4.0'
     implementation "androidx.annotation:annotation:$annotationVersion"
     androidTestImplementation "androidx.annotation:annotation:$annotationVersion"
 
